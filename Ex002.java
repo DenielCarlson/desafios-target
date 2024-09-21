@@ -53,11 +53,8 @@ public class Ex002 {
 
             if(((int) (string.charAt(i)) >= 65) && ((int) (string.charAt(i)) <= 90)){
 
-                if((int) string.charAt(i) <= 97){
-
-                    resultado += ((char) (((int) string.charAt(i)) + 32));
-
-                }
+                resultado += ((char) (((int) string.charAt(i)) + 32));
+            
             }else{
 
                 resultado += string.charAt(i);
